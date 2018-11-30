@@ -9,7 +9,7 @@ Install APK on Tencent Gaming Buddy!
 # What's include in the zip?
 + ADB
 + 1 batch file
-+ 1 exe execute-able file ( same as batch file )
++ 1 exe execute-able file ( same as batch file ) (removed, back soon 😉 )
 # How to install?
 + Download APK you need to install
 + Rename it to app.apk
