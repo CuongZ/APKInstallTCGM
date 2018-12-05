@@ -1,11 +1,11 @@
 color f0
 @echo off
 echo Checking ADB compoments...
-.\content\adb.exe
+adb
 cls
 @echo off
 echo Killing current ADB server...
-.\content\adb kill-server
+adb kill-server
 cls
 @echo off
 echo  =============Script Install APK - Tencent Gaming Buddy =====================
@@ -24,7 +24,7 @@ echo =[NOTE] Please confirm that you've run Tencent Gaming Buddy's PUBGM emulato
 echo =[NOTIFICATION] Enable developer setting and USB debugging like in this video: https://youtu.be/ksQB_eniDYU=
 echo ============================================================================================================
 pause
-.\content\adb kill-server
+adb kill-server
 cls
 @echo off
 echo =========================================================
@@ -42,15 +42,15 @@ cls
 echo ===============================================================================================================================================================================================
 echo =[NOTIFICATION] [USER STEP] Now you can see your emulator with named ' emulatorxxxx emulator ' ? If it not displayed, please check your emulator. If it displayed, press any key to continue. =
 echo ===============================================================================================================================================================================================
-.\content\adb kill-server
-.\content\adb devices
+adb kill-server
+adb devices
 pause
 cls
 @echo off
 echo ============================
 echo =Now installing your app...=
 echo ============================
-.\content\adb install ./app.apk
+adb install ./app.apk
 cls
 @echo off
 echo ==========================
