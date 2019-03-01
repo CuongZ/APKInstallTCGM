@@ -2,7 +2,7 @@ color 0a
 title APK Install For Tencent Gaming Buddy - Version 2.0
 @echo off
 echo Killing current ADB server...
-.\content\adb kill-server
+adb kill-server
 cls
 @echo off
 echo  =============Script Install APK - Tencent Gaming Buddy =====================
@@ -36,8 +36,8 @@ echo =====================================================================
 echo =====================================================================================================
 echo =If it not displayed, please check the step above again. If it displayed, press any key to continue.=
 echo =====================================================================================================
-.\content\adb kill-server
-.\content\adb devices
+adb kill-server
+adb devices
 pause
 cls
 set appname= Default
@@ -50,7 +50,7 @@ set /p appname=
 echo =======================================
 echo =Now installing your app ( %appname% )=
 echo =======================================
-.\content\adb install ./%appname%
+adb install %appname%
 cls
 pause
 @echo off
