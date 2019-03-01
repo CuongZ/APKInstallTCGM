@@ -11,10 +11,6 @@ Install APK on Tencent Gaming Buddy!
 + 1 batch file
 + 1 exe execute-able file ( same as batch file ) (removed, back soon 😉 )
 # How to install?
-+ Download APK you need to install
-+ Rename it to app.apk
-+ Make new folder to extract the zip
-+ Copy to the folder you created before
 + Enable Developer Mode ( watch this video: https://youtu.be/ksQB_eniDYU )
 + Run and follow the script
 
