@@ -47,10 +47,10 @@ echo = Please enter your app name! =
 echo ===============================
 set /p appname=
 @echo off
-echo =======================================
-echo =Now installing your app ( %appname% )=
-echo =======================================
-adb install %appname%
+echo ===========================================
+echo =Now installing your app ( %appname%.apk )=
+echo ===========================================
+adb install ./%appname%.apk
 cls
 pause
 @echo off
