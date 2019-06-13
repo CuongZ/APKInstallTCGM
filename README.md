@@ -4,8 +4,10 @@ Install APK on Tencent Gaming Buddy!
 Version 2.0
 
 # Changelogs
-+ [Version 2.0] Cleaned up the code and improved UI 
++ [Version 2.1] Cleaned up the code and improved UI 
 + You now can type your APK name to install your app, instead of changing apps name to app.apk
++ Now you can install apk have size over 1GB with "adb install -s" method.
++ New Feature: Force close progress ADB when the script "Check compoment-Step" and when the install is completed.
 
 # What's this app work?
 + Install another app, game in Tencent Gaming Buddy
