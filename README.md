@@ -1,13 +1,22 @@
 ﻿# APKInstallTCGM
 Install APK on Tencent Gaming Buddy!
+(c) CuongZ. All rights reserved.
 
-Version 2.0
+Version 2.1
 
-# Changelogs
-+ [Version 2.1] Cleaned up the code and improved UI 
-+ You now can type your APK name to install your app, instead of changing apps name to app.apk
-+ Now you can install apk have size over 1GB with "adb install -s" method.
-+ New Feature: Force close progress ADB when the script "Check compoment-Step" and when the install is completed.
+// Version 2.0 is Install.zip, Version 2.1 is Install.rar. Sorry for this inconvenience.
+# Changelogs [Version 2.1]
++ [Version 2.1] Cleaned up the code
++ [Version 2.1] Updated adb packs, change work folder to "compoments"
++ [Version 2.1] Now you can install apk have size over 1GB with "adb install -s" method.
++ [Version 2.1] New Feature: Force close progress ADB when the script "First-Check Compoment Step" and when the install is completed.
+# Old Changelogs [Version 2.0]
++ [Version 2.0] Cleaned up the code and improved UI 
++ [Version 2.0] You now can type your APK name to install your app, instead of changing apps name to app.apk
++ [Version 2.0] Removed "adb push" method.
+# Old Changelogs [Version 1.0]
++ [Version 1.0] Adding method " adb push "
++ [Version 1.0] First version
 
 # What's this app work?
 + Install another app, game in Tencent Gaming Buddy
@@ -20,7 +29,7 @@ Version 2.0
 + Download Install.zip ( click on Install.zip -> View RAW )( contained ADB )
 + Enable Developer Mode ( watch this video: https://youtu.be/ksQB_eniDYU )
 + Run and follow the script
-# What's include in the zip?
+# What's include in the zip/rar?
 + ADB
 + 1 batch file
 + 1 exe execute-able file ( same as batch file ) (removed, back soon 😉 )
