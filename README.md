@@ -5,6 +5,9 @@ Install APK on Tencent Gaming Buddy!
 
 Version 2.1
 
+#Issues:
++ Some .apk file not ALLOWED to install in /sdcard. So the installation can't continue. Will fix it today + release TookitTCGM.  
+
 // Version 2.0 is Install.zip, Version 2.1 is Install.rar. Sorry for this inconvenience.
 # Changelogs [Version 2.1]
 + [Version 2.1] Cleaned up the code
