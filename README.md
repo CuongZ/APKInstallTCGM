@@ -1,5 +1,6 @@
 ﻿# APKInstallTCGM
 Install APK on Tencent Gaming Buddy!
+
 (c) CuongZ. All rights reserved.
 
 Version 2.1
@@ -10,6 +11,8 @@ Version 2.1
 + [Version 2.1] Updated adb packs, change work folder to "compoments"
 + [Version 2.1] Now you can install apk have size over 1GB with "adb install -s" method.
 + [Version 2.1] New Feature: Force close progress ADB when the script "First-Check Compoment Step" and when the install is completed.
+
+
 // Just a little update so isn't take much my time ;)
 # Old Changelogs [Version 2.0]
 + [Version 2.0] Cleaned up the code and improved UI 
